@@ -1,0 +1,13 @@
+name: "My CodeQL config"
+
+disable-default-queries: false
+
+languages: java
+
+queries:
+  - name: Sec and Qual
+    uses: security-and-quality
+    
+packs:
+  java:
+    - codeql/java-queries
